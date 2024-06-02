@@ -38,7 +38,7 @@ if ($result->num_rows > 0) {
         echo "Visits: " . $row["visits"];
     }
 } else {
-    echo "0 results";
+    echo "No results found.";
 }
 
 $conn->close();
